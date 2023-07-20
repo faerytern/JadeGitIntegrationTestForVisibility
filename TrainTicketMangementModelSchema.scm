@@ -391,8 +391,8 @@ typeDefinitions
 	JadeScript completeDefinition
 	(
 	jadeMethodDefinitions
-		anotherJadecscipt() number = 1019;
-		setModifiedTimeStamp "KHEFFERNAN" "22.0.01" 2023:07:20:12:05:11.442;
+		anotherJadescript() number = 1019;
+		setModifiedTimeStamp "KHEFFERNAN" "22.0.01" 2023:07:20:12:09:28.392;
 		classAnalysis() number = 1008;
 		setModifiedTimeStamp "KHEFFERNAN" "22.0.01" 2023:06:21:13:19:58.675;
 		createCTypes() number = 1003;
@@ -1442,9 +1442,9 @@ end;
 	)
 	JadeScript (
 	jadeMethodSources
-anotherJadecscipt
+anotherJadescript
 {
-anotherJadecscipt();
+anotherJadescript();
 
 vars
 
