@@ -391,6 +391,8 @@ typeDefinitions
 	JadeScript completeDefinition
 	(
 	jadeMethodDefinitions
+		anotherJadecscipt() number = 1019;
+		setModifiedTimeStamp "KHEFFERNAN" "22.0.01" 2023:07:20:12:05:11.442;
 		classAnalysis() number = 1008;
 		setModifiedTimeStamp "KHEFFERNAN" "22.0.01" 2023:06:21:13:19:58.675;
 		createCTypes() number = 1003;
@@ -405,6 +407,8 @@ typeDefinitions
 		setModifiedTimeStamp "KHEFFERNAN" "22.0.01" 2023:06:21:13:19:03.742;
 		maketicket() number = 1007;
 		setModifiedTimeStamp "KHEFFERNAN" "22.0.01" 2023:06:21:13:44:52.164;
+		newJadeScriptmethod() number = 1012;
+		setModifiedTimeStamp "KHEFFERNAN" "22.0.01" 2023:07:20:12:02:50.724;
 		testRemapWithStartAppWithParam() number = 1006;
 		setModifiedTimeStamp "KHEFFERNAN" "22.0.01" 2023:06:16:13:56:14.973;
 		uuid() number = 1005;
@@ -1438,6 +1442,16 @@ end;
 	)
 	JadeScript (
 	jadeMethodSources
+anotherJadecscipt
+{
+anotherJadecscipt();
+
+vars
+
+begin
+
+end;
+}
 classAnalysis
 {
 classAnalysis();
@@ -1657,6 +1671,16 @@ begin
 			delete app.myMainRoot.allPassengersByID.first().allTickets.first();
 		endif;
 	commitTransaction;
+end;
+}
+newJadeScriptmethod
+{
+newJadeScriptmethod();
+
+vars
+
+begin
+
 end;
 }
 testRemapWithStartAppWithParam
